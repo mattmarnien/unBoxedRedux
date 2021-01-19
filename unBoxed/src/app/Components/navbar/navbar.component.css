@@ -1,0 +1,18 @@
+#mainNav{
+    height: 70px;  
+}
+#mainLogo {
+    
+    height: 93px;
+}
+.navLinks{
+    font-size: large;  
+    color: white;
+}
+.mobileIcon {
+    margin-left: 10px;
+    color: #98da9e;
+}
+#diceIcon {
+    
+}

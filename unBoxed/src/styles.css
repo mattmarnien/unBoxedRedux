@@ -1,0 +1,268 @@
+
+body {
+    background-color: silver;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.alertText{
+  color: red;
+}
+
+.updatedText{
+  color: #98da9e;
+}
+
+
+
+
+/* Index styling */
+.card{
+  color: black;
+}
+.cardText{
+  font-size: small;
+}
+
+.indexCard{
+  height: 600px;
+  margin: 5px;
+  line-height: 1.9;
+
+}
+
+.cardContent {
+ height: 220px;
+}
+
+.gameCardImage{
+  height: 300px;
+}
+.gameAddButton{
+  background-color: #87c58c ;
+}
+.gameAddButton:hover {
+  background-color: #70a3b7 ;
+}
+.toGamePage{
+  background-color: #70a3b7;
+}
+.toGamePage:hover{
+  background-color:#87c58c ;
+}
+
+
+
+/* Login Styling */
+#loginBtn{
+  background-color:  #87c58c;
+  margin-right:9px;
+}
+
+
+/* Singup styling */
+#signUpBtn{
+  background-color: #87c58c;
+}
+
+
+#signUpPageBtn{
+  background-color:#87c58c;
+}
+
+#avatarSelectCard{
+  height: 300px;
+  width: 200px;
+}
+
+
+/* colors for input fields */
+  .unBoxInput input[type=text]:focus + label {
+    color: #87c58c !important;    
+  }
+  .unBoxInput input[type=email]:focus + label {
+    color: #87c58c !important;    
+  }
+  .unBoxInput input[type=password]:focus + label {
+    color: #87c58c !important;    
+  }
+  .unBoxInput input[type=text] {
+    border-bottom: 1px solid #494848 ;
+  
+  }
+  .unBoxInput input[type=email] {
+    border-bottom: 1px solid #494848 ;
+ 
+  }
+  .unBoxInput input[type=password] {
+    border-bottom: 1px solid #494848 ;
+   
+  }
+  .unBoxInput .validate input[type=text]:invalid {
+    border-bottom: 1px solid #494848 ;
+  
+  }
+  .unBoxInput .validate input[type=email]:invalid {
+    border-bottom: 1px solid #494848 ;
+ 
+  }
+  .unBoxInput .validate input[type=password]:invalid {
+    border-bottom: 1px solid #494848 ;
+   
+  }
+  .unBoxInput .validate input[type=text]:valid {
+    border-bottom: 1px solid #87c58c !important;
+  
+  }
+  .unBoxInput .validate input[type=email]:valid {
+    border-bottom: 1px solid #87c58c !important;
+ 
+  }
+  .unBoxInput .validate input[type=password]:valid {
+    border-bottom: 1px solid #87c58c !;
+   
+  }
+  .unBoxInput input[type=text]:focus {
+    border-bottom: 1px solid #87c58c !important;
+   
+  }
+  .unBoxInput input[type=email]:focus {
+    border-bottom: 1px solid #87c58c !important;
+  
+  }
+  .unBoxInput input[type=password]:focus {
+    border-bottom: 1px solid #87c58c !important;
+
+  }
+  
+  .unBoxInput input[type=text]::placeholder {
+    color: #494848 ;
+   
+  }
+  .unBoxInput input[type=email]::placeholder {
+    color: #494848 ;
+  
+  }
+  .unBoxInput input[type=password]::placeholder {
+    color: #494848 ;
+
+  }
+
+
+  /* end of Input styling */
+
+
+ /* Game page styling */
+  .gameCard {
+    background-color: #70a3b7;
+    color: white;
+    line-height: 1.5;
+  }
+  #infoDiv{
+    line-height: 1;
+    padding-bottom: 21px;    
+  }
+
+  /* User page styling */
+.userCard{
+  font-size: medium;
+  line-height: 2;
+}
+
+  .userCardUsername{
+    color: black !important;
+  }
+
+  .bioCard{
+    background-color: #70a3b7;
+    display: inline-block !important;
+    height: auto;
+    width: auto;
+  }
+
+  #userLib{
+    height:70px;
+    color:#87c58c;
+  }
+
+  hr{
+    border:1px solid black;
+  }
+
+  .gameDeleteButton{
+    background-color:tomato;
+  }
+  .gameDeleteButton:hover{
+    background-color:red;
+  }
+
+/* LFG styling */
+
+.groupCard {
+  width: 300px;
+  height: 400px;
+}
+
+/* Rec Page Styling */
+.recCard{
+  background-color: #70a3b7;
+    color: white;
+    line-height: 1.5;
+    width: 300px;
+}
+.recToGamePage{
+  background-color: #87c58c;
+}
+.recToGamePage:hover{
+  background-color: #70a3b7 ;
+}
+.recButton{
+  background-color: #87c58c ;
+}
+.recButton:hover {
+  background-color: #70a3b7 ;
+}
+.recCardImage{
+  height: 300px;
+  width: auto;
+}
+  /* auto fill attributes */
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-animation: autofill 0s forwards;
+    animation: autofill 0s forwards;
+}
+
+  @media (max-width: 576px){
+   
+   
+    .cardTitle{
+        font-size: medium !important;
+        font-weight: bold;
+    }
+
+    .cardText{
+      font-size: small;
+    }
+}
+
+
+
+
+
+
+@keyframes autofill {
+    100% {
+        background: transparent;
+        color: #3a5c69;
+    }
+}
+
+@-webkit-keyframes autofill {
+    100% {
+        background: transparent;
+        color: inherit;
+    }
+}
